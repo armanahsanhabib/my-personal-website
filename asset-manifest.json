@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/my-personal-website/static/css/main.20a6f84b.css",
-    "main.js": "/my-personal-website/static/js/main.f2e008dd.js",
+    "main.js": "/my-personal-website/static/js/main.736133f7.js",
     "static/js/787.128fc6e9.chunk.js": "/my-personal-website/static/js/787.128fc6e9.chunk.js",
+    "static/media/tic-tac-toe showcase.png": "/my-personal-website/static/media/tic-tac-toe showcase.03b53bbf6aa2075612a1.png",
     "static/media/profileimage.png": "/my-personal-website/static/media/profileimage.2ca81f0fe5144d8b1c89.png",
-    "static/media/portfolio-project.jpg": "/my-personal-website/static/media/portfolio-project.0cd13da16cb99b37739e.jpg",
+    "static/media/my personal website.png": "/my-personal-website/static/media/my personal website.8ee19b45cb124f289850.png",
+    "static/media/Student portal dashboard.png": "/my-personal-website/static/media/Student portal dashboard.3eb2341733e444473b01.png",
+    "static/media/my first portfolio showcase2.png": "/my-personal-website/static/media/my first portfolio showcase2.9d1e8c1e7529710c7974.png",
     "static/media/Ahsan Habib Resume.pdf": "/my-personal-website/static/media/Ahsan Habib Resume.060fc6a123abcc2154d5.pdf",
+    "static/media/barishalboard.png": "/my-personal-website/static/media/barishalboard.d87d2ae2847743abc69d.png",
+    "static/media/portfolio-project.jpg": "/my-personal-website/static/media/portfolio-project.ffd7bb51b567892bb666.jpg",
     "static/media/logo-wh.png": "/my-personal-website/static/media/logo-wh.1fd509ce450a617e9a69.png",
     "static/media/ayman-sadiq.jpg": "/my-personal-website/static/media/ayman-sadiq.830fb239c8fc973c693a.jpg",
     "static/media/logo.png": "/my-personal-website/static/media/logo.50d66753b283fad411bd.png",
@@ -20,11 +25,11 @@
     "static/media/half-circle.svg": "/my-personal-website/static/media/half-circle.41563742aef5535d9a51.svg",
     "static/media/circleBg.svg": "/my-personal-website/static/media/circleBg.91bcaf58e4127388c670.svg",
     "main.20a6f84b.css.map": "/my-personal-website/static/css/main.20a6f84b.css.map",
-    "main.f2e008dd.js.map": "/my-personal-website/static/js/main.f2e008dd.js.map",
+    "main.736133f7.js.map": "/my-personal-website/static/js/main.736133f7.js.map",
     "787.128fc6e9.chunk.js.map": "/my-personal-website/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20a6f84b.css",
-    "static/js/main.f2e008dd.js"
+    "static/js/main.736133f7.js"
   ]
 }
