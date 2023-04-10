@@ -4,12 +4,12 @@ const stats = [
     {
         StatTitle: "Projects done",
         iconName: "rocket-launch",
-        StatCount: 0
+        StatCount: 14
     },
     {
         StatTitle: "Happy Clients",
         iconName: "user-group",
-        StatCount: 0
+        StatCount: 13
     },
     {
         StatTitle: "Cups of Coffe",
@@ -43,11 +43,6 @@ const StatsSection = () => {
     return (
         <div className="stats-section">
             <div className="container">
-                {/*                 <StatsItem
-                    iconName="user-group"
-                    StatCount="256"
-                    StatTitle="Cups of tea"
-                /> */}
                 {
                     stats.map((i) => (
                         <StatsItem
