@@ -27,9 +27,9 @@ const ContactSection = () => {
                     <iframe
                         className="address-location"
                         title="Ahsan Habib"
-                        allowfullscreen=""
+                        allowFullScreen=""
                         loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
+                        referrerPolicy="no-referrer-when-downgrade"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7348.5410337601625!2d90.0757194!3d22.9402624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37555c2635105979%3A0x669f71e03bd1712e!2zMjLCsDU2JzI0LjkiTiA5MMKwMDQnMzcuNiJF!5e0!3m2!1sen!2sbd!4v1670773305978!5m2!1sen!2sbd">
                     </iframe>
                 </div>

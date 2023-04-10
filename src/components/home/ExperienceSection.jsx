@@ -42,6 +42,7 @@ const ExperienceSection = () => {
                         {
                             experience.map((i) => (
                                 <Job
+                                    key={i.year}
                                     year={i.year}
                                     company={i.company}
                                     jobName={i.jobTitle}

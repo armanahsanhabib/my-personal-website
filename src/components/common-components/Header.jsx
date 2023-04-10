@@ -39,7 +39,7 @@ const Header = () => {
                     <NavBar />
                     <div className="right_menu">
                         <div className="btn-primary"><a href={RESUMEDownload} target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a></div>
-                        <div className="btn-menu" id="btn-nav"><i class="fa-solid fa-bars"></i></div>
+                        <div className="btn-menu" id="btn-nav"><i className="fa-solid fa-bars"></i></div>
                     </div>
                 </div>
             </header>

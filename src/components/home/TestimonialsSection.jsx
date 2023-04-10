@@ -64,6 +64,7 @@ const TestimonialsSection = () => {
                     {
                         review.map((i) => (
                             <TestimonialCard
+                                key={i.clientName}
                                 clientAvatar={i.clientAvatar}
                                 clientName={i.clientName}
                                 clientTitle={i.clientTitle}

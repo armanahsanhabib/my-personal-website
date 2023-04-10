@@ -21,7 +21,7 @@ const skills = [
         skillList: [
             ["circle-check", "Basics of CSS"],
             ["circle-check", "Positioning"],
-            ["circle-check", "Pseudo Class & Elements"],
+            ["circle-check", "Pseudo className & Elements"],
             ["circle-check", "Combinators"],
             ["circle-check", "CSS Specifity"],
             ["circle-check", "CSS Gradient"],
@@ -65,7 +65,7 @@ const skills = [
         skillPercent: "65%",
         skillList: [
             ["circle-check", "Javascript XML (JSX)"],
-            ["circle-check", "Class Components"],
+            ["circle-check", "className Components"],
             ["circle-check", "Functional Components"],
             ["circle-check", "State, Props"],
             ["circle-check", "React Hooks"],
@@ -136,11 +136,13 @@ const SkillDetails = () => {
                     {
                         skills.map((i) => (
                             <SkillCard
+                                key={i.skillName}
                                 skillIcon={i.skillIcon}
                                 skillName={i.skillName}
                                 skillPercent={i.skillPercent}
                                 list={i.skillList.map((j) => (
                                     <SkillList
+                                        key={j[1]}
                                         liIcon={j[0]}
                                         liItem={j[1]}
                                     />

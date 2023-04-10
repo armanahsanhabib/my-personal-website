@@ -67,6 +67,7 @@ const BlogsSection = () => {
                     {
                         blogs.map((i) => (
                             <BlogsCard
+                                key={i.date}
                                 coverPic={i.coverPic}
                                 date={i.date}
                                 bloggerName={i.bloggerName}

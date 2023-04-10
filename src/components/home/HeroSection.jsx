@@ -22,7 +22,7 @@ const HeroSection = () => {
                     </p>
                     <div className="buttons">
                         <span className="btn-primary"><a href={RESUME} target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a></span>
-                        <span className="btn-secondary"><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-play"></i> Play Video</a></span>
+                        <span className="btn-secondary"><a href="http://" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-play"></i> Play Video</a></span>
                     </div>
                 </div>
                 <div className="img-area">

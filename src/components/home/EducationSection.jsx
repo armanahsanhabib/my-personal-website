@@ -44,6 +44,7 @@ const EducationSection = () => {
                         {
                             education.map((i) => (
                                 <Degree
+                                    key={i.year}
                                     year={i.year}
                                     institute={i.institute}
                                     degreeName={i.degreeName}

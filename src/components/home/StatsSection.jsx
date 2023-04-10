@@ -46,6 +46,7 @@ const StatsSection = () => {
                 {
                     stats.map((i) => (
                         <StatsItem
+                            key={i.StatTitle}
                             iconName={i.iconName}
                             StatCount={i.StatCount}
                             StatTitle={i.StatTitle}

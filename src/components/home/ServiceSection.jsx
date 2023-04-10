@@ -69,11 +69,13 @@ const ServiceSection = () => {
                     {
                         services.map((i) => (
                             <ServiceCard
+                                key={i.title}
                                 icon={i.image}
                                 serviceName={i.title}
                                 serviceDetails={i.text}
                                 li={i.lists.map((j) => (
                                     <ServiceList
+                                        key={j[1]}
                                         liIcon={j[0]}
                                         liText={j[1]}
                                     />

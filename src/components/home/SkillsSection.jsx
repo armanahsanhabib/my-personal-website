@@ -14,6 +14,7 @@ const SkillsSection = () => {
                         {
                             skills.map((i) => (
                                 <SkillCard
+                                    key={i.skillName}
                                     skillIcon={i.skillIcon}
                                     skillName={i.skillName}
                                     skillPercent={i.skillPercent}
