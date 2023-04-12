@@ -21,7 +21,7 @@ const SkillsSection = () => {
                                 />
                             ))
                         }
-                        <div className="btn-primary"><Link to="/myskills" target="_blank" rel="noopener noreferrer"> View Details </Link></div>
+                        <div className="btn-primary"><Link to="/myskills" target="_blank"> View Details </Link></div>
                     </div>
                     <div className="image-area">
                         <img src={SkilledMan} alt="skill" />

@@ -112,3 +112,23 @@
 .skill-details-container .skill-card ul li .fa-circle-xmark {
     color: #fe3d4e;
 }
+
+
+/*======== Responsive: Laptop < 1024px ========*/
+
+@media screen and (max-width: 1024px) {
+    .skill-details-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+}
+
+/*======== Responsive: Tablet < 768px ========*/
+
+@media screen and (max-width: 450px) {
+    .skill-details-container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}

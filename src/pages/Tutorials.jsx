@@ -1,4 +1,5 @@
 import HeroSecondary from "../components/common-components/HeroSecondary";
+import TutorialSection from "../components/tutorials/TutorialSection";
 
 const Tutorials = () => {
     return (
@@ -7,6 +8,7 @@ const Tutorials = () => {
                 PageTitle="My Tutorials"
                 Path="Home | Tutorials"
             />
+            <TutorialSection />
         </main>
     );
 }

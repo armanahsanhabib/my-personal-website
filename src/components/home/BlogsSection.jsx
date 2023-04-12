@@ -77,7 +77,7 @@ const BlogsSection = () => {
                         ))
                     }
                 </div>
-                <div className="btn-primary"><Link to="/blogs"> View All Blogs </Link></div>
+                <div className="btn-primary"><Link to="/blogs" target="_blank" rel="noopener noreferrer"> View All Blogs </Link></div>
             </div>
         </div>
     );

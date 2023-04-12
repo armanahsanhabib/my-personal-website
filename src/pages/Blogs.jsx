@@ -1,4 +1,5 @@
 import HeroSecondary from "../components/common-components/HeroSecondary";
+import BlogSection from "../components/home/BlogsSection";
 
 const Blogs = () => {
     return (
@@ -7,6 +8,7 @@ const Blogs = () => {
                 PageTitle="My Blogs"
                 Path="Home | Blogs"
             />
+            <BlogSection />
         </main>
     );
 }
